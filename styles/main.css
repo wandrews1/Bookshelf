@@ -1,0 +1,98 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  /*color: #898989;*/
+  /*line-height: 24px;*/
+  /*margin: 0;*/
+  padding-left: 10px;
+  /*width: 98%;*/
+  text-align: left;
+  /*text-indent: -25px;*/
+}
+.card-header {
+  text-align: left;
+}
+li {
+  text-align: left;
+}
+.white {
+	color:white;
+}
+.black {
+  color:black;
+}
+.darkBG {
+	background-color: #777;
+	padding: 10px;
+}
+.name {
+  color:maroon;
+  font-style:bold;
+  font-size: 30px;
+}
+.profession {
+  color:black;
+  font-style:bold;
+  font-size: 16px;
+}
+
+.full-width {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.box {
+  padding-top: 50px;
+}
+.anchor{
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.nav-small {
+  font-size: 16px;
+}
+body { 
+  font-family: -apple-system, 
+            BlinkMacSystemFont, 
+            "Segoe UI", 
+            Roboto, 
+            Oxygen-Sans, 
+            Ubuntu, 
+            Cantarell, 
+            "Helvetica Neue", 
+            sans-serif;
+  font-size: 14px;
+  padding-top: 60px; 
+  /*padding-bottom: 75px;*/
+  background-color: lightgrey;
+}
+footer {
+	text-align: center;
+	padding: 10px;
+	position: fixed; 
+	bottom: 0px; 
+	width: 100%; 
+	height: 60px; 
+	background-color: #363636;
+  	*background-color: #222222;
+  	/*color: #ffffff;*/
+  	color: rgba(255, 255, 255, 0.75);
+}

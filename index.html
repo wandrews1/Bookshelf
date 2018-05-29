@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Whitney's Bookshelf</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<script src="https://use.fontawesome.com/d989b825b1.js"></script>
+		<!-- My CSS - always at bottom -->
+		<link href="styles/main.css" rel="stylesheet" type="text/css">
+		
+	</head>
+
+	<body>
+
+
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><strong>Whitney's Bookshelf</strong></a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    	&#9776;
+		  	</button>
+
+		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    	<ul class="navbar-nav flex-row justify-content-between ml-auto">
+		      		
+		       		<li class="nav-item">
+		        		<a class="nav-link active nav-small" href="#">Resume</a>
+		      		</li>
+
+		      		<li class="nav-item ">
+		        		<a class="nav-link nav-small" href="#">Projects</a>
+		      		</li>
+
+		      		<li class="nav-item ">
+		        		<a class="nav-link nav-small" href="#">Essay</a>
+		      		</li>
+
+		    	</ul>
+		  	</div>
+		</nav>
+
+
+
+
+		<!-- Top Title -->
+		<center>
+			<span class="anchor" id="home"></span>
+			<div class="container">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name">
+					<strong>Whitney's Library</strong>
+				</div>
+			</div>
+		</center>
+
+		<br>
+
+		<div class="container-fluid">
+			<!-- <center> -->
+		    <div class="row">
+				<div class="col-4">
+					<div class="list-group" id="list-tab" role="tablist">
+						<a class="list-group-item list-group-item-action active" id="list-new-list" data-toggle="list" href="#list-new" role="tab" aria-controls="new">Add New Book</a>
+			    		<a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">A Farewell To Arms</a>
+					    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Paper Towns</a>
+					    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">A Torch Against The Night</a>
+					    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Gone Girl</a>
+			    	</div>
+			  </div>
+			  <div class="col-8">
+			    <div class="tab-content" id="nav-tabContent">
+
+			   		<div class="tab-pane fade show active" id="list-new" role="tabpanel" aria-labelledby="list-new-list">
+			   			<div class="card">
+  							<div class="card-body">
+    							<h5 class="card-title">Add New Book</h5>
+								<form>
+									<div class="form-group">
+										<label for="title">Book Title</label>
+										<input type="text" class="form-control" id="title" placeholder="Book Title">
+									</div>
+									<div class="form-row">
+										<div class="col-6">
+											<div class="form-group">
+												<label for="lastName">Author Last Name</label>
+												<input type="text" class="form-control" id="lastName" placeholder="Author Last Name">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="form-group">
+												<label for="firstName">Author First Name</label>
+												<input type="text" class="form-control" id="firstName" placeholder="Author First Name">
+												<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="col-6">
+											<div class="form-group">
+												<label for="totalPages">Total Pages</label>
+												<input type="text" class="form-control" id="totalPages" placeholder="Total Pages">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="form-group">
+												<label for="bookmark">Bookmark</label>
+												<input type="text" class="form-control" id="bookmark" placeholder="Bookmark">
+												<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+											</div>
+										</div>
+									</div>
+								<button type="submit" class="btn btn-primary">Add New Book!</button>
+								</form>
+							</div>
+						</div>
+			   		</div>
+
+			      	<div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+						<div class="card">
+  							<div class="card-body">
+    							<h5 class="card-title">A Farewell To Arms</h5>
+    							<h6 class="card-subtitle mb-2 text-muted">Ernest Hemingway</h6>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<p><img src="images/afarewelltoarms.jpg" class="img-fluid img-thumbnail" alt="Responsive image" width="25%"></p>
+    							<p class="card-text">322 / 322</p>
+    							<p>
+    								<div class="progress">
+  										<div class="progress-bar" role="progressbar" style="width: (222/322)" aria-valuenow="222" aria-valuemin="0" aria-valuemax="322"></div>
+									</div>
+								</p>
+								<p>
+	    							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+									  	Update Bookmark
+									</button>
+								</p>
+  							</div>
+						</div>
+			      	</div>
+
+			      	<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+			      		<div class="card">
+  							<div class="card-body">
+    							<h5 class="card-title">Paper Towns</h5>
+    							<h6 class="card-subtitle mb-2 text-muted">John Green</h6>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<p><img src="images/papertowns.jpg" class="img-fluid img-thumbnail" alt="Responsive image" width="25%"></p>
+    							<p class="card-text">305 / 305</p>
+    							<p>
+    								<div class="progress">
+  										<div class="progress-bar" role="progressbar" style="width: (222/322)" aria-valuenow="222" aria-valuemin="0" aria-valuemax="322"></div>
+									</div>
+								</p>
+								<p>
+	    							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+									  	Update Bookmark
+									</button>
+								</p>
+  							</div>
+						</div>
+			      	</div>
+
+			      	<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">A Torch Against The Night
+			      		GET services/rest/1.1/?method=librarything.ck.getwork&name=[]&apikey=8036f6d9b239ad635a05f0932a62c4a0 HTTP/1.1
+						Host: www.librarything.com
+						Connection: Keep-Alive
+
+						<?xml version="1.0" encoding="utf-8"?>
+						<string xmlns="http://clearforest.com/">string</string>
+						
+
+			      	</div>
+			      	<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Gone Girl</div>
+			    </div>
+			  </div>
+			</div>
+								    
+			
+
+
+
+			<!-- </center> -->
+		</div>
+		
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+		<!-- Smooth page scrolling from navigation menu clicks -->
+		<script src="https://www.wsandrews.com/js/smooth.js"></script>
+
+		<!-- Old jQuery (necessary for Smooth Scrolling) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		    
+
+
+		<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+      		<div class="modal-header">
+        	<h5 class="modal-title" id="exampleModalLongTitle">Update Bookmark</h5>
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+      	</div>
+      		<div class="modal-body">
+		        <form>
+				  	<div class="form-group">
+				    	<label for="exampleInputEmail1">Enter New Page Number</label>
+				    	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Bookmark">
+				  	</div>
+				</form>
+      		</div>
+      		<div class="modal-footer">
+        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        		<button type="button" class="btn btn-primary">Save changes</button>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+
+	</body>
+</html>
